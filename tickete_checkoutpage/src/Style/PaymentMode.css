@@ -1,0 +1,177 @@
+#paymentmode{
+    width: 65%;
+}
+#paymentmode .hrline{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 50px;
+}
+#paymentmode .total_payable{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#paymentmode .importantmessage{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    font-size: 14px;
+}
+#paymentmode .importantmessage .image_{
+    width: 2%;
+}
+#paymentmode .importantmessage .information_{
+    width: 97%;
+}
+#paymentmode .importantmessage > div > img{
+    width: 14px;
+}
+#paymentmode .warning{
+    color: grey;
+    margin-top: 8px;
+    line-height: 20px;
+    font-size: 13px;
+}
+#paymentmode .paymenttagline{
+    margin: 18px 0 40px 0;
+    color: grey;
+    font-size: 15px;
+}
+#paymentoptions{
+    width: 100%;
+    padding-bottom: 25px;
+}
+#paymentoptions > .card{
+    width: 100%;
+    /* height: 400px; */
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+#paymentoptions .carddivtop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#paymentoptions .carddivtop .credit_debit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#paymentoptions .carddivtop .credit_debit > img{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+#paymentoptions .carddivtop .roundBtn{
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+}
+#paymentoptions .carddivtop .roundBtn .whiteRound{
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+} 
+#paymentoptions .carddivmiddle{
+    margin: 30px 0;
+}
+#paymentoptions .carddivmiddle > img{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 28px;
+}
+
+#paymentoptions .carddibbottom{
+    display: flex;
+    flex-wrap: wrap;
+}
+#paymentoptions .carddibbottom > input{
+    width: calc(50% - 20px);
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+#paymentoptions .hrline{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 15px;
+}
+#paymentoptions .payableamount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+#paymentoptions .payableamount .saveAmt{
+    font-size: 11px;
+    border-radius: 20px;
+    background-color: rgb(69, 142, 69);
+    color: white;
+    padding: 4px 15px;
+}
+#paymentoptions .aed{
+    margin: 10px 0;
+    font-size: 12px;
+    color: grey;
+}
+#paymentoptions .termCond{
+    margin: 25px 0 10px 0;
+    font-size: 12px;
+    color: grey;
+}
+#paymentoptions .termCond span{
+    color: blue;
+}
+#paymentoptions .confirmpaybtn{
+    width: 180px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+    outline: none;
+    margin-top: 10px;
+}
+#paymentoptions .apay,#paymentoptions .gpay {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+    margin-top: 20px;
+    color: grey;
+    margin-bottom: 10px;
+}
+#paymentoptions .roundgreybtn{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+}
