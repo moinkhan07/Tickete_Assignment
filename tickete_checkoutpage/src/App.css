@@ -17,3 +17,13 @@
     background-color: #ccc;
     margin-bottom: 60px;
  }
+#faqmain{
+    width: 80%;
+    margin: auto;
+}
+#faqmain .hrline{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 60px;
+}

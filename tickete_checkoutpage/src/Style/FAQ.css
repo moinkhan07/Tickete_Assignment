@@ -1,0 +1,83 @@
+#faq{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: auto;
+    padding-bottom: 20px;
+}
+#faqbanner{
+    width: 38%;
+}
+#faqbanner h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#faqbanner p{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 20px;
+}
+#faqbanner .chatwithus{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#faqbanner .chatwithus img{
+    width: 120px;
+} 
+#faqbanner .chatwithus > div{
+    width: 45%;
+    height: 100%;
+}
+#faqbanner .chatwithus > div p{
+    font-size: 15px;
+    color: black;
+    line-height: 22px;
+    font-weight: bold;
+}
+#faqbanner .chatwithus > div button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+#faqbanner .chatwithus > div button:hover{
+    background-color: rgb(46, 42, 42);
+}
+#faqquestions{
+    width: 58%;
+    padding: 0 20px;
+}
+#faqquestions .faqquestion img{
+    margin-right: 20px;
+    width: 16px;
+    cursor: pointer;
+}
+#faqquestions .questionanswer{
+    font-size: 13px;
+    margin-top: 12px;
+    line-height: 20px;
+    color: grey;
+}
+#faqquestions .faqquestion{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+#hrline{
+    margin-bottom: 30px;
+}
