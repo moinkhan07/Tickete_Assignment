@@ -4,11 +4,13 @@ import './Style/UserDetail.css';
 import './Style/FinalCheckout.css';
 import './Style/PaymentMode.css';
 import './Style/FAQ.css';
+import './Style/Footer.css';
 import Header from './Component/Header';
 import UserDetails from './Component/UserDetail';
 import FinalCheckout from './Component/FinalCheckout';
 import PaymentMode from './Component/PaymentMode';
 import FAQ from './Component/FAQ';
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <FAQ />
         <hr className='hrline' />
       </div>
+      <Footer />
     </div>
   );
 }
