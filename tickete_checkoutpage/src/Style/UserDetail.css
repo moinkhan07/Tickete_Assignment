@@ -1,0 +1,81 @@
+#userdetail{
+    width: 65%;
+    /* height: 300px; */
+    /* border: 1px solid black; */
+    padding-bottom: 100px;
+}
+#userdetail > h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    font-family: "Roboto Serif";
+}
+#userdetail .cancellationdiv{
+    width: 100%;
+    height: 65px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+#userdetail .cancellationdiv > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+#userdetail .cancellationdiv > p{
+    color: grey;
+    margin-top: 6px;
+    font-size: 13px;
+}
+#userdetail .detailtagline{
+    margin: 20px 0 40px 0;
+    color: grey;
+    font-size: 15px;
+}
+
+#inputdetails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#inputdetails > input, #inputdetails > select {
+    width: calc(50% - 20px);
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+  
+#inputdetails #name {
+    width: 100%;
+}
+#userdetail > .hrline{
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+#additionalinputdetails{
+    display: flex;
+    flex-wrap: wrap;
+}
+#additionalinputdetails > input, #additionalinputdetails > select {
+    width: calc(50% - 20px);
+    height: 40px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left:10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+} 
+#additionalinputdetails #mulSelect {
+    width: 100%;
+}
