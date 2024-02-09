@@ -73,10 +73,11 @@
 #paymentoptions .carddivtop .roundBtn{
     width: 24px;
     height: 24px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 50%;
     background-color: black;
     position: relative;
+    cursor: pointer;
 }
 #paymentoptions .carddivtop .roundBtn .whiteRound{
     position: absolute; 
@@ -157,6 +158,10 @@
     font-size: 18px;
     outline: none;
     margin-top: 10px;
+}
+#paymentoptions .confirmpaybtn:hover{
+    background-color: rgb(38, 35, 35);
+    cursor: pointer;
 }
 #paymentoptions .apay,#paymentoptions .gpay {
     width: 100%;
