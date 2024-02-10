@@ -77,3 +77,20 @@
 #additionalinputdetails #mulSelect {
     width: 100%;
 }
+
+
+/* ============== */
+@media only screen and (max-width: 768px) {
+    #userdetail {
+        width: 100%;
+    }
+    #additionalinputdetails > input, #additionalinputdetails > select {
+        width: 100%;
+    }
+    #inputdetails > input, #inputdetails > select {
+        width: 100%;
+    }
+    #userdetail > h1{
+        display: none;
+    }
+}

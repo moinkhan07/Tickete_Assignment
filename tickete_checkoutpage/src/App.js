@@ -16,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <h1 id='confrimpayheading'>Confirm & pay</h1>
       <div id='userdetail_finalcheckout'>
         <UserDetails />
         <FinalCheckout />
@@ -24,6 +25,8 @@ function App() {
         <PaymentMode />
         <hr className='hrline' />
       </div>
+      <h2 id='faqheading'>Frequently asked questions</h2>
+      <p id='faqsubheading'>Here are some of our most asked questions.</p>
       <div id='faqmain'>
         <FAQ />
         <hr className='hrline' />

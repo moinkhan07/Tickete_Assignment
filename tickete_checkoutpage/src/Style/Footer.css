@@ -30,3 +30,36 @@
     left: 10%;
     color: rgb(187, 187, 187);
 }
+#footer > .madewith{
+    display: none;
+}
+
+/* ============== */
+@media only screen and (max-width: 768px) {
+    #footer > .companylogo{
+        width: 95%;
+        height: 250px;
+        top: 70%;
+    }
+    #footer > hr{
+        bottom: 45%;
+    }
+    #footer > p{
+        width: 95%;
+        bottom: 20%;
+        line-height: 28px;
+        left: 5%;
+        font-size: 13px;
+    }
+    #footer > p > span{
+        display: none;
+    }
+    #footer > .madewith{
+        display: block;
+        color: rgb(150, 150, 150);
+        font-size: 12px;
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+    }
+}

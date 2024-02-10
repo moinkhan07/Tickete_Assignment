@@ -27,3 +27,46 @@
     background-color: #ccc;
     margin-bottom: 60px;
 }
+#confrimpayheading{
+    display: none;
+}
+#faqheading{
+    display: none;
+}
+#faqsubheading{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    #userdetail_finalcheckout {
+        width: 90%;
+        flex-direction: column-reverse;
+    }
+    #paymentmodemain{
+        width: 90%;
+    }
+    #faqmain{
+        width: 90%;
+    }
+    #confrimpayheading{
+        width: 90%;
+        font-size: 38px;
+        font-weight: 600;
+        margin: auto;
+        margin-bottom: 25px;
+        display: block;
+        font-family: "Roboto Serif";
+    }
+    #faqheading{
+        display: block;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #faqsubheading{
+        display: block;
+        width: 90%;
+        margin: auto;
+        color: grey;
+        margin-bottom: 40px;
+    }
+}

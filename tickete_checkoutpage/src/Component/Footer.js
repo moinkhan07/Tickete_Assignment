@@ -8,7 +8,8 @@ const Footer = () => {
             <img src={Logo} alt='logo' />
         </div>
         <hr/>
-        <p>Made with ❤️ &nbsp; &nbsp; &#x2022; &nbsp; &nbsp; Privacy policy &nbsp; &nbsp; &#x2022; &nbsp; &nbsp; Terms of usage &nbsp; &nbsp; &#x2022; &nbsp; &nbsp; Cancellation policy &nbsp; &nbsp; &#x2022; &nbsp; &nbsp; Sitemap</p>
+        <p> <span>Made with ❤️ &nbsp; &#x2022; &nbsp;</span>Privacy policy &nbsp; &#x2022; &nbsp; Terms of usage &nbsp; &#x2022; &nbsp; Cancellation policy &nbsp; &#x2022; &nbsp; Sitemap</p>
+        <span className='madewith'>Made with ❤️</span>
     </div>
   )
 }

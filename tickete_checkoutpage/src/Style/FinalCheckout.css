@@ -1,9 +1,8 @@
 #finalcheckout{
     width: 33%;
-    height: 820px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     border-radius: 10px;
-    padding: 15px;
+    padding: 15px 15px 0 15px;
 }
 #finalcheckout .slider{
     width: 100%;
@@ -135,4 +134,13 @@
 #finalcheckout .confirmpaybtn:hover{
     background-color: rgb(38, 35, 35);
     cursor: pointer;
+}
+
+/* ============== */
+@media only screen and (max-width: 768px) {
+    #finalcheckout {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
 }

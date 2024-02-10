@@ -20,6 +20,9 @@
     width: 100%;
     height: auto;
 }
+#header .headermain .headermainlogo .back{
+    display: none;
+}
 #header .headermain .headermaincheckout{
     width: 8%;
     height: 50%;
@@ -55,3 +58,27 @@
     justify-content: center;
     align-items: center;
 }
+
+/* ============== */
+@media only screen and (max-width: 768px) {
+    #header .headermain .headermainlogo .logo {
+      display: none;
+    }
+    #header .headermain {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 15px;
+    }
+    #header .headermain .headermainhelp > p{
+        display: none;
+    }
+    #header .headermain .headermainlogo .back{
+        display: block;
+    }
+    #header .headermain .headermaincheckout{
+        width: 25%;
+    }
+  }
